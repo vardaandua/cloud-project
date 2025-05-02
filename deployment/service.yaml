@@ -1,0 +1,13 @@
+# service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-demo-service
+spec:
+  selector:
+    app: node-demo-app
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000   # Or whatever port your Node app listens on

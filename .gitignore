@@ -1,0 +1,6 @@
+cosign.key
+cosign.pub
+cosign1.pub
+/node-demo-app/node_modules/
+creating_image.txt
+kubectl.exe
